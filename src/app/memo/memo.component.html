@@ -1,0 +1,12 @@
+<div class="memo" xmlns="http://www.w3.org/1999/html">
+  <div class="memo-nav">
+  <div>{{memo.date  | date}}</div>
+  <label>
+    Finshed
+    <input type="checkbox">
+  </label>
+  </div>
+  <p class="memo-text">{{memo.text}}</p>
+
+  <button (click)="onDeleteClick()">Delete</button>
+</div>
